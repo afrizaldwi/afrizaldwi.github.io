@@ -2,7 +2,7 @@
 const navbar = document.querySelector("nav");
 
 window.onscroll = () => {
-    if (window.innerWidth > 992 && this.scrollY > 10) {
+    if (this.scrollY > 10) {
         navbar.classList.add("sticky");
     } else {
         navbar.classList.remove("sticky");
@@ -28,12 +28,12 @@ backToTopBtn.addEventListener("click", () => {
 const certificateImg = document.querySelectorAll("#certificateImg");
 const modalSm = document.getElementById("modalSm");
 const modalClose = document.getElementById("modalClose");
-const imgShow = document.getElementById("imgShow");
+const certificatePreview = document.getElementById("certificatePreview");
 
 certificateImg.forEach((image) => {
     image.addEventListener("click", () => {
         modalSm.classList.toggle("show");
-        imgShow.src = image.src;
+        certificatePreview.src = image.src;
         document.body.style.overflow = "hidden";
     });
 });

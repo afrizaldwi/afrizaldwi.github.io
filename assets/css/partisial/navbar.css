@@ -1,9 +1,9 @@
 nav {
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     border-radius: 0 0 0.5rem 0.5rem;
     top: 0;
-    z-index: 100;
+    z-index: 999;
     transition: all 0.3s ease;
 }
 
@@ -20,8 +20,9 @@ nav {
 }
 
 .navbar-collapse {
+    z-index: 999;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top: 2rem;
     right: 2rem;
 }
@@ -101,8 +102,9 @@ nav {
 .navbar-nav {
     background-color: var(--grey);
     right: 2rem;
-    position: absolute;
+    position: fixed;
     width: 40%;
+    z-index: 999;
     border-radius: 0.5rem;
     opacity: 0;
     visibility: hidden;
@@ -138,6 +140,7 @@ nav {
     nav {
         padding: 0 5rem;
         margin-bottom: 5rem;
+        position: fixed;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -147,14 +150,13 @@ nav {
     }
     .navbar-nav {
         transform: translateX(0);
+        position: static;
         visibility: visible;
         width: auto;
         display: flex;
         opacity: 1;
-        right: 5rem;
         background-color: transparent;
     }
-
     .navbar-link:hover {
         background: none;
         color: var(--primary);
@@ -174,9 +176,6 @@ nav {
     }
     .navbar-brand {
         font-size: 1.4rem;
-    }
-    .navbar-nav {
-        right: 15rem;
     }
     .navbar-item {
         font-size: 1.2rem;
