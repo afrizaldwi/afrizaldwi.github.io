@@ -12,8 +12,7 @@ nav {
 }
 
 .sticky {
-    background-color: var(--grey);
-    box-shadow: 0 0 0.5rem var(--black);
+    background-color: var(--white);
 }
 
 .container {
