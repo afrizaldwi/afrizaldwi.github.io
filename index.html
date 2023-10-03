@@ -1,502 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- font awesome -->
-        <script src="https://kit.fontawesome.com/8b42185fc0.js" crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8b42185fc0.js" crossorigin="anonymous"></script>
 
-        <!-- material design icon -->
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css"
-        />
+    <!-- material design icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css"
+    />
 
-        <!-- font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap"
-            rel="stylesheet"
-        />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- css -->
-        <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-        <title>Personal Portfolio</title>
-    </head>
-    <body>
-        <!-- navbar start -->
-        <nav>
-            <a href="#" class="navbar-brand">
-                <h1>AfrizalDwi</h1>
-            </a>
-            <div class="navbar-collapse" id="navbarCollapse">
-                <button class="hamburger hamburger--elastic" type="button" id="hamburger">
-                    <span class="hamburger-box">
-                        <span class="hamburger-inner"></span>
-                    </span>
-                </button>
-            </div>
-            <ul class="navbar-nav" id="navbarNav">
-                <li class="navbar-item">
-                    <a href="#home" class="navbar-link">beranda</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#about" class="navbar-link">tentang</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#skill" class="navbar-link">skill</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#portfolio" class="navbar-link">portfolio</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#certificate" class="navbar-link">sertifikat</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#contact" class="navbar-link">kontak</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- navbar end -->
-
-        <!-- hero section start -->
-        <section id="home">
-            <div class="container">
-                <div class="home-group">
-                    <div class="home-text">
-                        <p>Halo semuanya 👋️, saya</p>
-                        <h1>Afrizal dwi ahmad</h1>
-                        <span id="text"></span>
-                    </div>
-                    <div class="img-group">
-                        <img src="./assets/img/shape.svg" alt="shape" class="shape" />
-                        <img src="./assets/img/person.png" alt="person" />
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- hero section end -->
-
-        <!-- about start -->
-        <section id="about">
-            <div class="container">
-                <h1 class="title">tentang saya</h1>
-                <div class="about-group">
-                    <div class="about-text">
-                        <p class="about-title">Welcome to my personal website!!!</p>
-                        <p>
-                            Saya senang Anda ada di sini dan berbagi sedikit tentang diri saya. Nama
-                            saya adalah Afrizal Dwi Ahmad dan saya merupakan siswa kelas 12 jurusan
-                            TKJ SMKN 1 Cerme, Gresik. Saya membuat situs web ini sebagai platform
-                            untuk mengekspresikan pemikiran saya, pamerkan karya saya, dan terhubung
-                            dengan individu yang memiliki minat yang sama.
-                        </p>
-                        <p>
-                            Di website ini, Anda dapat menemukan proyek pribadi saya. Saya percaya
-                            pada kekuatan kreativitas dan inovasi untuk memberikan dampak positif,
-                            dan saya berusaha untuk menggabungkan nilai-nilai ini dalam setiap yang
-                            saya lakukan
-                        </p>
-                    </div>
-                    <div class="education">
-                        <p class="about-title">riwayat pendidikan</p>
-                        <span class="line"></span>
-                        <div class="education-group">
-                            <div class="education-level">
-                                <span class="circle"></span>
-                                <div>
-                                    <p>2012-2018</p>
-                                    <p>MI Bahrul Ulum, Menganti, Gresik</p>
-                                </div>
-                            </div>
-                            <div class="education-level">
-                                <span class="circle"></span>
-                                <div>
-                                    <p>2018-2021</p>
-                                    <p>SMP NU Bahrul Ulum, Menganti, Gresik</p>
-                                </div>
-                            </div>
-                            <div class="education-level">
-                                <span class="circle"></span>
-                                <div>
-                                    <p>2021-</p>
-                                    <p>SMKN 1 Cerme, Gresik</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about-link">
-                        <p class="about-title">mari berteman</p>
-                        <p>Anda bisa mengikuti saya di</p>
-                        <div class="about-icon-group">
-                            <div class="icon">
-                                <a href="https://github.com/afrizaldwi" target="_blank">
-                                    <i class="fa-brands fa-github"></i>
-                                </a>
-                            </div>
-                            <div class="icon">
-                                <a href="https://instagram.com/afrizaldwi16" target="_blank">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                            </div>
-                            <div class="icon">
-                                <a href="https://facebook.com/afrizal.ariz" target="_blank">
-                                    <i class="fa-brands fa-facebook"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- about end -->
-
-        <!-- my sklill start -->
-        <section id="skill">
-            <div class="container">
-                <h1 class="title">skills</h1>
-                <div class="skill-group">
-                    <div class="skill">
-                        <span class="mdi mdi-language-html5 skill-icon"></span>
-                        <p class="icon-title">html</p>
-                    </div>
-                    <div class="skill">
-                        <span class="mdi mdi-language-css3 skill-icon"></span>
-                        <p class="icon-title">css</p>
-                    </div>
-                    <div class="skill">
-                        <span class="mdi mdi-language-javascript skill-icon"></span>
-                        <p class="icon-title">javascript</p>
-                    </div>
-                    <div class="skill">
-                        <span class="mdi mdi-bootstrap skill-icon"></span>
-                        <p class="icon-title">bootstrap</p>
-                    </div>
-                    <div class="skill">
-                        <span class="mdi mdi-tailwind skill-icon"></span>
-                        <p class="icon-title">tailwind</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- my sklill end -->
-
-        <!-- portfolio start -->
-        <section id="portfolio">
-            <div class="container">
-                <div class="portfolio-wrapper">
-                    <h1 class="title">portfolio</h1>
-                    <p class="portfolio-header">my project</p>
-                    <div class="portfolio-box">
-                        <div class="portfolio-group">
-                            <div class="portfolio-img">
-                                <img
-                                    src="./assets/img/portfolio/department website.png"
-                                    alt="website jurusan"
-                                />
-                            </div>
-                            <div class="portfolio-text">
-                                <p class="portfolio-title">website jurusan TKJ</p>
-                                <p>
-                                    website ini berisi tentang penjelasan singkat tentang jurusan
-                                    TKJ yang ada di sekolah SMKN 1 Cerme, Gresik
-                                </p>
-                                <a href="https://github.com/afrizaldwi/tkj" target="_blank"
-                                    >Github repository
-                                </a>
-                            </div>
-                        </div>
-                        <div class="portfolio-group">
-                            <div class="portfolio-img">
-                                <img
-                                    src="./assets/img/portfolio/admin panel.png"
-                                    alt="admin panel"
-                                />
-                            </div>
-                            <div class="portfolio-text">
-                                <p>Admin Panel Template</p>
-                                <p>
-                                    Dashboard admin template responsive yang dibuat menggunakan html
-                                    dan css
-                                </p>
-                                <a
-                                    href="https://github.com/afrizaldwi/Admin-Panel-Template"
-                                    target="_blank"
-                                    >Github repository
-                                </a>
-                            </div>
-                        </div>
-                        <div class="portfolio-group">
-                            <div class="portfolio-img">
-                                <img
-                                    src="./assets/img/portfolio/dicoding submission.png"
-                                    alt="dicoding submission"
-                                />
-                            </div>
-                            <div class="portfolio-text">
-                                <p>dicoding submission</p>
-                                <p>
-                                    Hasil submisi tugas akhir membuat website dari Belajar Dasar
-                                    Pemrograman Web Dicoding
-                                </p>
-                                <a
-                                    href="https://github.com/afrizaldwi/submission-tugas-akhir-membuat-website"
-                                    target="_blank"
-                                    >Github repository
-                                </a>
-                            </div>
-                        </div>
-                        <div class="portfolio-group">
-                            <div class="portfolio-img">
-                                <img src="./assets/img/portfolio/hero.png" alt="hero section" />
-                            </div>
-                            <div class="portfolio-text">
-                                <p>hero section</p>
-                                <p>Hero section untuk halaman website travel</p>
-                                <a
-                                    href="https://github.com/afrizaldwi/travel-hero-section"
-                                    target="_blank"
-                                    >Github repository
-                                </a>
-                            </div>
-                        </div>
-                        <div class="portfolio-group">
-                            <div class="portfolio-img">
-                                <img src="./assets/img/portfolio/login page.png" alt="login page" />
-                            </div>
-                            <div class="portfolio-text">
-                                <p>login page</p>
-                                <p>
-                                    Halaman login responsive yamg dibuat menggunakan html, css dan
-                                    javascript
-                                </p>
-                                <a href="https://github.com/afrizaldwi/login-page" target="_blank"
-                                    >Github repository
-                                </a>
-                            </div>
-                        </div>
-                        <div class="portfolio-group">
-                            <div class="portfolio-img">
-                                <img
-                                    src="./assets/img/portfolio/responsive navbar.png"
-                                    alt="responsive navbar"
-                                />
-                            </div>
-                            <div class="portfolio-text">
-                                <p>responsive navbar</p>
-                                <p>Responsive navbar menggunakan html, css dan javascript</p>
-                                <a
-                                    href="https://github.com/afrizaldwi/navbar-responsive"
-                                    target="_blank"
-                                    >Github repository
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="changePage">
-                    <a href="./assets/page/portfolio.html" class="changePageBtn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Lihat Selengkapnya
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- portfolio end -->
-
-        <!-- certificate start -->
-        <section id="certificate">
-            <div class="modal hidden" id="modalSm">
-                <div class="modal-body">
-                    <button class="modal-close" id="modalClose">
-                        <i class="fa-solid fa-xmark fa-2xl"></i>
-                    </button>
-                    <img src="" alt="" id="certificatePreview" class="certificate-show" />
-                </div>
-            </div>
-            <div class="container">
-                <h1 class="title">sertifikat</h1>
-                <div class="certificate-group">
-                    <div class="certificate-img">
-                        <img
-                            src="./assets/img/cerfificate/certificate 1.png"
-                            alt="certificate 1"
-                            id="certificateImg"
-                        />
-                    </div>
-                    <div class="certificate-img">
-                        <img
-                            src="./assets/img/cerfificate/certificate 2.png"
-                            alt="certificate 2"
-                            id="certificateImg"
-                        />
-                    </div>
-                    <div class="certificate-img">
-                        <img
-                            src="./assets/img/cerfificate/certificate 3.png"
-                            alt="certificate 3"
-                            id="certificateImg"
-                        />
-                    </div>
-                    <div class="certificate-img">
-                        <img
-                            src="./assets/img/cerfificate/certificate 4.png"
-                            alt="certificate 4"
-                            id="certificateImg"
-                        />
-                    </div>
-                </div>
-                <div class="changePage">
-                    <a href="./assets/page/ceertificate.html" class="changePageBtn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Lihat Selengkapnya</a
-                    >
-                </div>
-            </div>
-        </section>
-        <!-- certificate end -->
-
-        <!-- contact start -->
-        <section id="contact">
-            <div class="container contact-box">
-                <div class="contact-info">
-                    <h1 class="title">kontak</h1>
-                    <div class="contact-info-group">
-                        <a
-                            href="https://goo.gl/maps/3JkdmJd7n3Tx35Pg7"
-                            class="contact-item"
-                            target="_blank"
-                        >
-                            <i class="fa-solid fa-house icon"></i>
-                            <p>
-                                Palemwatu, Gempolkurung, Kec. Menganti, Kabupaten Gresik, Jawa Timur
-                                61174
-                            </p>
-                        </a>
-                        <a href="https://wa.me/6285755419838" class="contact-item" target="_blank">
-                            <i class="fa-brands fa-whatsapp icon"></i>
-                            <p>+62 857 5541 9838</p>
-                        </a>
-                        <a
-                            href="mailto:afrizaldwiariz@gmail.com"
-                            class="contact-item"
-                            target="_blank"
-                        >
-                            <i class="fa-regular fa-envelope icon"></i>
-                            <p>afrizaldwiariz@gmail.com</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="contact-message">
-                    <h1 class="title">pesan anda</h1>
-                    <form action="https://formspree.io/f/mbjvrear" method="POST">
-                        <div class="contact-form">
-                            <input
-                                type="text"
-                                class="form-input"
-                                placeholder="Nama"
-                                name="name"
-                                required
-                                autocomplete="off"
-                            />
-                            <input
-                                type="email"
-                                class="form-input"
-                                placeholder="abc@xxx.xxx"
-                                name="email"
-                                required
-                                autocomplete="off"
-                            />
-                            <textarea
-                                rows="10"
-                                class="form-input"
-                                placeholder="pesan anda"
-                                name="message"
-                                required
-                                autocomplete="off"
-                            ></textarea>
-                        </div>
-                        <div class="submit">
-                            <button type="submit" class="submitBtn">Kirim</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <!-- contact end -->
-
-        <!-- footer start -->
-        <footer>
-            <div class="container">
-                <div class="footer-group">
-                    <div class="footer-content">
-                        <h1 class="title">AfrizalDwi</h1>
-                        <p>hubungi saya</p>
-                        <p>afrizaldwiariz@gmail.com</p>
-                        <p>
-                            Palemwatu, Gempolkurung, Kec. Menganti, Kabupaten Gresik, Jawa Timur
-                            61174
-                        </p>
-                    </div>
-                    <div class="footer-content">
-                        <h1 class="title">tautan</h1>
-                        <div class="footer-link">
-                            <a href="#home">beranda</a>
-                            <a href="#about">tentang</a>
-                            <a href="#skill">skill</a>
-                            <a href="#portfolio">portfolio</a>
-                            <a href="#certificate">sertifikat</a>
-                            <a href="#contact">kontak</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-line">
-                <marquee width="100%" direction="right" class="footer-text">
-                    Dibuat sepenuh hati oleh Afrizal Dwi Ahmad
-                </marquee>
-            </div>
-        </footer>
-        <!-- footer end -->
-
-        <!-- back to top start -->
-        <button class="back-to-top-btn" id="backToTopBtn">
-            <i class="fas fa-arrow-up"></i>
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav>
+      <a href="#" class="navbar-brand">
+        <h1>AfrizalDwi</h1>
+      </a>
+      <div class="navbar-collapse" id="navbarCollapse">
+        <button class="hamburger hamburger--elastic" type="button" id="hamburger">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
         </button>
-        <!-- back to top end -->
+      </div>
+      <ul class="navbar-nav" id="navbarNav">
+        <li class="navbar-item">
+          <a href="#home" class="navbar-link">beranda</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#about" class="navbar-link">tentang</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#skill" class="navbar-link">skill</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#portfolio" class="navbar-link">portfolio</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#certificate" class="navbar-link">sertifikat</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#contact" class="navbar-link">kontak</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- navbar end -->
 
-        <script src="./assets/js/script.js"></script>
+    <!-- hero section start -->
+    <section id="home">
+      <div class="container">
+        <div class="home-group">
+          <div class="home-text">
+            <p>Halo semuanya 👋️, saya</p>
+            <h1>Afrizal dwi ahmad</h1>
+            <span id="text"></span>
+          </div>
+          <div class="img-group">
+            <img src="./assets/img/shape.svg" alt="shape" class="shape" />
+            <img src="./assets/img/person.png" alt="person" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
 
-        <!-- navbar -->
-        <script>
-            const navbarNav = document.getElementById("navbarNav");
-            const navbarCollapse = document.getElementById("navbarCollapse");
-            const hamburger = document.getElementById("hamburger");
+    <!-- about start -->
+    <section id="about">
+      <div class="container">
+        <h1 class="title">tentang saya</h1>
+        <div class="about-group">
+          <div class="about-text">
+            <p class="about-title">Welcome to my personal website!!!</p>
+            <p>
+              Saya senang Anda ada di sini dan berbagi sedikit tentang diri saya. Nama saya adalah
+              Afrizal Dwi Ahmad dan saya merupakan siswa kelas 12 jurusan TKJ SMKN 1 Cerme, Gresik.
+              Saya membuat situs web ini sebagai platform untuk mengekspresikan pemikiran saya,
+              pamerkan karya saya, dan terhubung dengan individu yang memiliki minat yang sama.
+            </p>
+            <p>
+              Di website ini, Anda dapat menemukan proyek pribadi saya. Saya percaya pada kekuatan
+              kreativitas dan inovasi untuk memberikan dampak positif, dan saya berusaha untuk
+              menggabungkan nilai-nilai ini dalam setiap yang saya lakukan
+            </p>
+          </div>
+          <div class="education">
+            <p class="about-title">riwayat pendidikan</p>
+            <span class="line"></span>
+            <div class="education-group">
+              <div class="education-level">
+                <span class="circle"></span>
+                <div>
+                  <p>2012-2018</p>
+                  <p>MI Bahrul Ulum, Menganti, Gresik</p>
+                </div>
+              </div>
+              <div class="education-level">
+                <span class="circle"></span>
+                <div>
+                  <p>2018-2021</p>
+                  <p>SMP NU Bahrul Ulum, Menganti, Gresik</p>
+                </div>
+              </div>
+              <div class="education-level">
+                <span class="circle"></span>
+                <div>
+                  <p>2021-</p>
+                  <p>SMKN 1 Cerme, Gresik</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-link">
+            <p class="about-title">mari berteman</p>
+            <p>Anda bisa mengikuti saya di</p>
+            <div class="about-icon-group">
+              <div class="icon">
+                <a href="https://github.com/afrizaldwi" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="icon">
+                <a href="https://instagram.com/afrizaldwi16" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+              <div class="icon">
+                <a href="https://facebook.com/afrizal.ariz" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
 
-            navbarCollapse.addEventListener("click", () => {
-                navbarNav.classList.toggle("active");
-                hamburger.classList.toggle("is-active");
-            });
-        </script>
+    <!-- my sklill start -->
+    <section id="skill">
+      <div class="container">
+        <h1 class="title">skills</h1>
+        <div class="skill-group">
+          <div class="skill">
+            <span class="mdi mdi-language-html5 skill-icon"></span>
+            <p class="icon-title">html</p>
+          </div>
+          <div class="skill">
+            <span class="mdi mdi-language-css3 skill-icon"></span>
+            <p class="icon-title">css</p>
+          </div>
+          <div class="skill">
+            <span class="mdi mdi-language-javascript skill-icon"></span>
+            <p class="icon-title">javascript</p>
+          </div>
+          <div class="skill">
+            <span class="mdi mdi-bootstrap skill-icon"></span>
+            <p class="icon-title">bootstrap</p>
+          </div>
+          <div class="skill">
+            <span class="mdi mdi-tailwind skill-icon"></span>
+            <p class="icon-title">tailwind</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- my sklill end -->
 
-        <!-- typed js -->
-        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-        <script>
-            var typed = new Typed("#text", {
-                strings: ["welcome to my personal website"],
-                typeSpeed: 100,
-                backSpeed: 100,
-                loop: true,
-            });
-        </script>
-    </body>
+    <!-- portfolio start -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="portfolio-wrapper">
+          <h1 class="title">portfolio</h1>
+          <p class="portfolio-header">my project</p>
+          <div class="portfolio-box">
+            <div class="portfolio-group">
+              <div class="portfolio-img">
+                <img src="./assets/img/portfolio/department website.png" alt="website jurusan" />
+              </div>
+              <div class="portfolio-text">
+                <p class="portfolio-title">website jurusan TKJ</p>
+                <p>
+                  website ini berisi tentang penjelasan singkat tentang jurusan TKJ yang ada di
+                  sekolah SMKN 1 Cerme, Gresik
+                </p>
+                <a href="https://github.com/afrizaldwi/tkj" target="_blank">Github repository </a>
+              </div>
+            </div>
+            <div class="portfolio-group">
+              <div class="portfolio-img">
+                <img src="./assets/img/portfolio/admin panel.png" alt="admin panel" />
+              </div>
+              <div class="portfolio-text">
+                <p>Admin Panel Template</p>
+                <p>Dashboard admin template responsive yang dibuat menggunakan html dan css</p>
+                <a href="https://github.com/afrizaldwi/Admin-Panel-Template" target="_blank"
+                  >Github repository
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-group">
+              <div class="portfolio-img">
+                <img
+                  src="./assets/img/portfolio/dicoding submission.png"
+                  alt="dicoding submission"
+                />
+              </div>
+              <div class="portfolio-text">
+                <p>dicoding submission</p>
+                <p>
+                  Hasil submisi tugas akhir membuat website dari Belajar Dasar Pemrograman Web
+                  Dicoding
+                </p>
+                <a
+                  href="https://github.com/afrizaldwi/submission-tugas-akhir-membuat-website"
+                  target="_blank"
+                  >Github repository
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-group">
+              <div class="portfolio-img">
+                <img src="./assets/img/portfolio/hero.png" alt="hero section" />
+              </div>
+              <div class="portfolio-text">
+                <p>hero section</p>
+                <p>Hero section untuk halaman website travel</p>
+                <a href="https://github.com/afrizaldwi/travel-hero-section" target="_blank"
+                  >Github repository
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-group">
+              <div class="portfolio-img">
+                <img src="./assets/img/portfolio/login page.png" alt="login page" />
+              </div>
+              <div class="portfolio-text">
+                <p>login page</p>
+                <p>Halaman login responsive yamg dibuat menggunakan html, css dan javascript</p>
+                <a href="https://github.com/afrizaldwi/login-page" target="_blank"
+                  >Github repository
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-group">
+              <div class="portfolio-img">
+                <img src="./assets/img/portfolio/responsive navbar.png" alt="responsive navbar" />
+              </div>
+              <div class="portfolio-text">
+                <p>responsive navbar</p>
+                <p>Responsive navbar menggunakan html, css dan javascript</p>
+                <a href="https://github.com/afrizaldwi/navbar-responsive" target="_blank"
+                  >Github repository
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="changePage">
+          <a href="./assets/page/portfolio.html" class="changePageBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Lihat Selengkapnya
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio end -->
+
+    <!-- certificate start -->
+    <section id="certificate">
+      <div class="modal hidden" id="modalSm">
+        <div class="modal-body">
+          <button class="modal-close" id="modalClose">
+            <i class="fa-solid fa-xmark fa-2xl"></i>
+          </button>
+          <img src="" alt="" id="certificatePreview" class="certificate-show" />
+        </div>
+      </div>
+      <div class="container">
+        <h1 class="title">sertifikat</h1>
+        <div class="certificate-group">
+          <div class="certificate-img">
+            <img
+              src="./assets/img/cerfificate/certificate 1.png"
+              alt="certificate 1"
+              id="certificateImg"
+            />
+          </div>
+          <div class="certificate-img">
+            <img
+              src="./assets/img/cerfificate/certificate 2.png"
+              alt="certificate 2"
+              id="certificateImg"
+            />
+          </div>
+          <div class="certificate-img">
+            <img
+              src="./assets/img/cerfificate/certificate 3.png"
+              alt="certificate 3"
+              id="certificateImg"
+            />
+          </div>
+          <div class="certificate-img">
+            <img
+              src="./assets/img/cerfificate/certificate 4.png"
+              alt="certificate 4"
+              id="certificateImg"
+            />
+          </div>
+        </div>
+        <div class="changePage">
+          <a href="./assets/page/ceertificate.html" class="changePageBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Lihat Selengkapnya</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- certificate end -->
+
+    <!-- contact start -->
+    <section id="contact">
+      <div class="container contact-box">
+        <div class="contact-info">
+          <h1 class="title">kontak</h1>
+          <div class="contact-info-group">
+            <a href="#" class="contact-item">
+              <i class="fa-solid fa-house icon"></i>
+              <p>Kabupaten Gresik, Jawa Timur</p>
+            </a>
+            <a href="#" class="contact-item">
+              <i class="fa-brands fa-whatsapp icon"></i>
+              <p>+62 857 5541 9838</p>
+            </a>
+            <a href="#" class="contact-item">
+              <i class="fa-regular fa-envelope icon"></i>
+              <p>afrizaldwiariz@gmail.com</p>
+            </a>
+          </div>
+        </div>
+        <div class="contact-message">
+          <h1 class="title">pesan anda</h1>
+          <form action="https://formspree.io/f/mbjvrear" method="POST">
+            <div class="contact-form">
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Nama"
+                name="name"
+                required
+                autocomplete="off"
+              />
+              <input
+                type="email"
+                class="form-input"
+                placeholder="abc@xxx.xxx"
+                name="email"
+                required
+                autocomplete="off"
+              />
+              <textarea
+                rows="10"
+                class="form-input"
+                placeholder="pesan anda"
+                name="message"
+                required
+                autocomplete="off"
+              ></textarea>
+            </div>
+            <div class="submit">
+              <button type="submit" class="submitBtn">Kirim</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <div class="footer-group">
+          <div class="footer-content">
+            <h1 class="title">AfrizalDwi</h1>
+            <p>hubungi saya</p>
+            <p>afrizaldwiariz@gmail.com</p>
+            <p>Kabupaten Gresik, Jawa Timur</p>
+          </div>
+          <div class="footer-content">
+            <h1 class="title">tautan</h1>
+            <div class="footer-link">
+              <a href="#home">beranda</a>
+              <a href="#about">tentang</a>
+              <a href="#skill">skill</a>
+              <a href="#portfolio">portfolio</a>
+              <a href="#certificate">sertifikat</a>
+              <a href="#contact">kontak</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-line">
+        <marquee width="100%" direction="right" class="footer-text">
+          Dibuat sepenuh hati oleh Afrizal Dwi Ahmad
+        </marquee>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- back to top start -->
+    <button class="back-to-top-btn" id="backToTopBtn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- back to top end -->
+
+    <script src="./assets/js/script.js"></script>
+
+    <!-- navbar -->
+    <script>
+      const navbarNav = document.getElementById("navbarNav");
+      const navbarCollapse = document.getElementById("navbarCollapse");
+      const hamburger = document.getElementById("hamburger");
+
+      navbarCollapse.addEventListener("click", () => {
+        navbarNav.classList.toggle("active");
+        hamburger.classList.toggle("is-active");
+      });
+    </script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#text", {
+        strings: ["welcome to my personal website"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+  </body>
 </html>

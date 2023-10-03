@@ -1,183 +1,183 @@
 nav {
-    width: 100%;
-    border-radius: 0 0 0.5rem 0.5rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    transition: all 0.3s ease;
-    padding: 2rem;
+  width: 100%;
+  border-radius: 0 0 0.5rem 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  transition: all 0.3s ease;
+  padding: 2rem;
 }
 
 .sticky {
-    background-color: var(--white);
-    /* box-shadow: 0 0 0.5rem var(--black); */
+  background-color: var(--white);
+  /* box-shadow: 0 0 0.5rem var(--black); */
 }
 
 .navbar-brand {
-    cursor: pointer;
-    color: var(--primary);
-    font-style: italic;
+  cursor: pointer;
+  color: var(--primary);
+  font-style: italic;
 }
 
 .navbar-collapse {
-    z-index: 999;
-    cursor: pointer;
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
+  z-index: 999;
+  cursor: pointer;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
 }
 
 .hamburger {
-    display: inline-block;
-    cursor: pointer;
-    transition: opacity, filter 0.15s linear;
-    overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  transition: opacity, filter 0.15s linear;
+  overflow: visible;
 }
 .hamburger:hover,
 .hamburger.is-active:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .hamburger-box {
-    width: 40px;
-    height: 24px;
-    display: inline-block;
-    position: relative;
+  width: 40px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
 }
 
 .hamburger-inner {
-    display: block;
-    top: 50%;
-    margin-top: -2px;
+  display: block;
+  top: 50%;
+  margin-top: -2px;
 }
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
-    width: 40px;
-    height: 4px;
-    background-color: var(--primary);
-    border-radius: 4px;
-    position: absolute;
-    transition: transform 0.15s ease;
+  width: 40px;
+  height: 4px;
+  background-color: var(--primary);
+  border-radius: 4px;
+  position: absolute;
+  transition: transform 0.15s ease;
 }
 .hamburger-inner::before,
 .hamburger-inner::after {
-    content: "";
-    display: block;
+  content: "";
+  display: block;
 }
 .hamburger-inner::before {
-    top: -10px;
+  top: -10px;
 }
 .hamburger-inner::after {
-    bottom: -10px;
+  bottom: -10px;
 }
 
 .hamburger--elastic .hamburger-inner {
-    top: 2px;
-    transition-duration: 0.275s;
-    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  top: 2px;
+  transition-duration: 0.275s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .hamburger--elastic .hamburger-inner::before {
-    top: 10px;
-    transition: opacity 0.125s 0.275s ease;
+  top: 10px;
+  transition: opacity 0.125s 0.275s ease;
 }
 .hamburger--elastic .hamburger-inner::after {
-    top: 20px;
-    transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  top: 20px;
+  transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .hamburger--elastic.is-active .hamburger-inner {
-    transform: translate3d(0, 10px, 0) rotate(135deg);
-    transition-delay: 0.075s;
+  transform: translate3d(0, 10px, 0) rotate(135deg);
+  transition-delay: 0.075s;
 }
 .hamburger--elastic.is-active .hamburger-inner::before {
-    transition-delay: 0s;
-    opacity: 0;
+  transition-delay: 0s;
+  opacity: 0;
 }
 .hamburger--elastic.is-active .hamburger-inner::after {
-    transform: translate3d(0, -20px, 0) rotate(-270deg);
-    transition-delay: 0.075s;
+  transform: translate3d(0, -20px, 0) rotate(-270deg);
+  transition-delay: 0.075s;
 }
 
 .navbar-nav {
-    background-color: var(--grey);
-    right: 2rem;
-    position: fixed;
-    width: 40%;
-    z-index: 999;
-    border-radius: 0.5rem;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateX(10rem);
-    transition: all 0.35s ease-out;
+  background-color: var(--grey);
+  right: 2rem;
+  position: fixed;
+  width: 40%;
+  z-index: 999;
+  border-radius: 0.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(10rem);
+  transition: all 0.35s ease-out;
 }
 
 .navbar-nav.active {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(0);
-    transition: all 0.35s ease-out;
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+  transition: all 0.35s ease-out;
 }
 
 .navbar-item {
-    border-radius: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .navbar-link {
-    width: 100%;
-    padding: 1rem;
-    display: inline-block;
-    color: var(--black);
-    text-transform: capitalize;
+  width: 100%;
+  padding: 1rem;
+  display: inline-block;
+  color: var(--black);
+  text-transform: capitalize;
 }
 
 .navbar-link:hover {
-    background-color: var(--primary);
-    border-radius: 0.5rem;
+  background-color: var(--primary);
+  border-radius: 0.5rem;
 }
 
 @media (min-width: 992px) {
-    nav {
-        padding: 2rem 5rem;
-        margin-bottom: 5rem;
-        position: fixed;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .navbar-collapse {
-        display: none;
-    }
-    .navbar-nav {
-        transform: translateX(0);
-        position: static;
-        visibility: visible;
-        width: auto;
-        display: flex;
-        opacity: 1;
-        background-color: transparent;
-    }
-    .navbar-link:hover {
-        background: none;
-        color: var(--primary);
-    }
-    .navbar-link:hover::after {
-        content: "";
-        width: 100%;
-        height: 0.125rem;
-        background-color: var(--primary);
-        display: block;
-    }
+  nav {
+    padding: 2rem 5rem;
+    margin-bottom: 5rem;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar-collapse {
+    display: none;
+  }
+  .navbar-nav {
+    transform: translateX(0);
+    position: static;
+    visibility: visible;
+    width: auto;
+    display: flex;
+    opacity: 1;
+    background-color: transparent;
+  }
+  .navbar-link:hover {
+    background: none;
+    color: var(--primary);
+  }
+  .navbar-link:hover::after {
+    content: "";
+    width: 100%;
+    height: 0.125rem;
+    background-color: var(--primary);
+    display: block;
+  }
 }
 
 @media (min-width: 1400px) {
-    nav {
-        padding: 2rem 15rem;
-    }
-    .navbar-brand {
-        font-size: 1.4rem;
-    }
-    .navbar-item {
-        font-size: 1.2rem;
-    }
+  nav {
+    padding: 2rem 15rem;
+  }
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+  .navbar-item {
+    font-size: 1.2rem;
+  }
 }

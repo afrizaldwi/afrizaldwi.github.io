@@ -1,39 +1,39 @@
 .footer-group {
-    display: grid;
-    gap: 2rem;
+  display: grid;
+  gap: 2rem;
 }
 
 .footer-content {
-    display: grid;
-    gap: 1rem;
+  display: grid;
+  gap: 1rem;
 }
 
 .footer-content .title {
-    text-align: start;
-    margin: 0;
+  text-align: start;
+  margin: 0;
 }
 
 .footer-link {
-    display: grid;
+  display: grid;
 }
 
 .footer-link a {
-    color: var(--black);
+  color: var(--black);
 }
 
 .footer-line {
-    width: 100%;
-    height: 0.125rem;
-    background-color: var(--black);
+  width: 100%;
+  height: 0.125rem;
+  background-color: var(--black);
 }
 
 .footer-text {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 @media (min-width: 768px) {
-    .footer-group {
-        grid-template-columns: 2fr 1fr;
-        place-items: center;
-    }
+  .footer-group {
+    grid-template-columns: 2fr 1fr;
+    place-items: center;
+  }
 }
